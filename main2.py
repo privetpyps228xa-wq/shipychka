@@ -23,7 +23,7 @@ def keep_alive():
 # --- ОСНОВНОЙ КОД БОТА ---
 
 # ЗАМЕНИ НА СВОЙ НОВЫЙ ТОКЕН!
-TOKEN = "ТВОЙ_НОВЫЙ_ТОКЕН" 
+TOKEN = "8817308182:AAHkidg_jVmrsIK2RrQjkbPXXiBAjXlZCes" 
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
